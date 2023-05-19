@@ -26,7 +26,10 @@ const FeedbackCard = ({
       <div className="mt-7 flex justify-between items-center gap-3">
         <div className="flex-1 flex flex-col">
           <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">@</span> {name}
+            <span className="bg-gradient-to-r from-violet-400 to-indigo-600">
+              @
+            </span>{" "}
+            {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
             {designation} of {company}

@@ -43,6 +43,7 @@ const Contact = () => {
           to_email: "developeramanyt@gmail.com",
           message: form.message,
         },
+        //emailjs public key
         "SbfE7UBB1KtBkXBi1"
       )
       .then(
@@ -76,7 +77,7 @@ const Contact = () => {
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
           ref={formRef}
